@@ -15,6 +15,7 @@ function Input({
       placeholder={placeholder}
       name={name}
       onChange={onChange}
+      className={styles.input}
     />
   );
 }
